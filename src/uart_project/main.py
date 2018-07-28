@@ -1,11 +1,9 @@
-import serial
-
+from datainput import datainput
+from device import device
 def main():
-    ser = serial.Serial('/dev/ttyUSB0')
-    print(ser.name)
-    ser.write(b'hello')
-    ser.close()
-
+    inputPorts = [datainput("A0", 0), datainput("A1", 1), datainput("A2", 2)]
+    device01 = device(203412, "dev01", inputPorts)
+    print(device01.getDeviceName())
 def run():
     main()
 
