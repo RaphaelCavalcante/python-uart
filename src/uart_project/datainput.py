@@ -1,5 +1,4 @@
-class datainput:
-    def __init__(self, identifier, value):
-        self.identifier = identifier
+class Datainput:
+    def __init__(self, port, value=0):
+        self.port = port
         self.value = value
-    

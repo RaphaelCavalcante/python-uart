@@ -1,4 +1,5 @@
-class device:
+class Device:
+    # inputList: list of port numbers on arduino
     def __init__(self, serialNumber, deviceName, inputList):
         self.serialNumber = serialNumber
         self.deviceName = deviceName
