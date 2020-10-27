@@ -1,6 +1,6 @@
 Brlapi==0.6.5
 chardet==2.3.0
-cryptography==1.7.1
+cryptography==3.2
 cupshelpers==1.0
 httplib2==0.9.2
 idna==2.2
